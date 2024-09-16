@@ -314,3 +314,16 @@ hr {
     background-color: rgb(225, 232, 240);
     margin: 5px 0;
 }
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.pro-icon {
+    width: 23px;
+    fill: rgba(0, 0, 0);
+}
