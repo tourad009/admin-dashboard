@@ -24,7 +24,7 @@
     grid-column: 2/4;
     grid-row: 1;
     background-color: var(--header-bg);
-    padding: 20px;
+    padding: 10px;
 }
 
 .upper-header {
@@ -52,6 +52,7 @@
     border: none;
     background-color: var(--content-bg);
     padding: 10px;
+    font-size: 18px;
 }
 
 .header-upper-right-side {
@@ -143,7 +144,8 @@
     justify-content: space-around;
     align-items: center;
     gap: 300px;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
 .sidebar {
@@ -152,9 +154,76 @@
     background-color: var(--sidebar-bg);
 }
 
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+    margin: 20px 10px;
+    
+}
+
+.logo .icon{
+    fill: rgb(255, 255, 255);
+    width: 50px;
+}
+
+.logo p {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.first-set, .second-set {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: grid;
+    gap: 25px;
+    margin-left: 25px;
+}
+
+.first-set {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.first-set li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-set li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.first-set .icon {
+    fill: rgb(255, 255, 255);
+    width: 20px;
+}
+
+.second-set li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-set .icon {
+    fill: rgb(255, 255, 255);
+    width: 20px;
+}
+
+.second-set li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 .content {
     grid-column: 2/4;
     grid-row: 2;
     background-color: var(--content-bg);
+    padding: 20px;
 }
 
